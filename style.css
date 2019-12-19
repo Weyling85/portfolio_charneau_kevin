@@ -1,0 +1,39 @@
+#bloc_page
+{
+	width: auto;
+	margin : auto;
+}
+
+.presentation{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+	.titre_principal{
+		text-align: right;
+		color: white;
+	}
+
+
+.mentions_legales{
+	text-align: right;
+	color: white;
+
+}
+
+.icones{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: flex-end;
+}
+	.linkedin{
+		background-color: white;
+	}
+
+body{
+	background: center no-repeat url('icones/fond1.jpg'), black;
+	background-size: 90%;
+}

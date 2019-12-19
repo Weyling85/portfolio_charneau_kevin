@@ -4,21 +4,80 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+    <title>kcharneau.com</title>
   </head>
-  <body>
-    <h1>Hello, world! Two</h1>
-    <progress value="50" max="100"></progress>
-    <p>Il fait beau aujourd'hui !</p>
+  	<div id="bloc_page">
+  		<header>
+  			<div class="presentation">
+  				<div class="titre_principal">
+  					<h1>Kevin Charneau</h1>
+  					<h2>Etudiant informatique</h2>
+  					<h3>Dev/OPS</h3>
+  				</div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  				<div class="recherche_p">
+					<form action="/search" id="searchthis" method="get">
+					<input id="search" name="q" type="text" placeholder="Rechercher" />
+					<input id="search-btn" type="submit" value="Rechercher" />
+					</form>
+				</div>
+			</div>
+
+  			<div class="nav">
+				<sectionmenu>
+					<div class="menu-vertical">
+						<nav>
+							<div class="niv0"> 
+								<a href="#">Accueil</a>
+								<div class="niv1">
+								</div>
+							</div>
+
+							<div class="niv0"> 
+								<a href="pagesite/pagehistoire.html" target="_blank">About me</a>
+								<div class="niv1">
+								</div>
+							</div>
+
+							<div class="niv0">
+								<a href="#">CV</a>
+							</div>
+
+							<div class="niv0"> 
+								<a href="#">Formation</a>
+							</div>
+							<div class="niv0"> 
+								<a href="#">Contact</a>
+							</div>
+						</nav>
+					</div>
+				</sectionmenu>		
+  			</div>
+  		</header>
+
+  		<body>	
+  			<div class="icones">
+  				<div class="pinterest">
+  					<a href="https://www.pinterest.com" title="pinterest.com"><img src="icones/site-pinterest-logo_318-40303.png" alt="Pinterest" width="50em" /></a>
+  				</div>
+
+  				<div class="linkedin">
+  					<a href="https://www.linkedin.com" title="linkedin.com"><img src="icones/linkedin.png" alt="Linkedin" width="50em" /></a>
+  				</div>
+
+  				<div class="instagram">
+  					<a href="https://www.instagram.com" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="50em" /></a>
+  				</div>
+
+  				<div class="twitter">
+  					<a href="https://www.twitter.com" title="twitter.com"><img src="icones/twitter.jpg" alt="Twitter" width="50em" /></a>
+  				</div>
+  			</div>
+  		</body>
+
+  		<footer>
+			<div class="mentions_legales">Mentions légales</div>
+  		</footer>
+  	</div>
 </html>
