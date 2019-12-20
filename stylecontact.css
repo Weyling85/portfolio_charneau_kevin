@@ -104,14 +104,6 @@ body{
 	margin-top: 2rem;
 }
 
-.milieu{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	margin-bottom: 2rem;
-}
-
 	.nav{
 		position: fixed;
 		margin-left: 3rem;
@@ -133,41 +125,41 @@ body{
    		position: fixed;
    		height : 20%;
    		bottom: 0;
-   		top: 17rem;
-   		left: 5rem;;
-   		width: 20px; /* A changer pour la largeur de ta barre */
+   		top: 19rem;
+   		left: 6rem;
+   		width: 20px; /* A changer pour la largeur de la barre */
+   		opacity: 60%;
 }
 
 .page3{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	color: white;
 }
 	.contact{
 		color: #8C8E92;
 		position: absolute;
 		top: 10rem;
-		left: 40rem;
-		font-family: 'Segoe UI Bold Italic';
+		right: 43rem;
+		font-family: 'Segoe UI Italic';
 		border : red 1px solid;
 		border-radius: 50px;
 		padding-right: 50px;
 		padding-left: 50px;
 	}
 
+	.groupe_contact{
+		margin-left: 43%;
+	}
+
 	.contact1{
-		position: absolute;
-		font-family: 'Segoe UI Bold Italic';
-		font-size: 1.5rem;
-		margin: 0 auto;
+		font-family: 'Segoe UI Italic';
 	}
 	.contact2{
-		font-family: 'Segoe UI Bold Italic';
-		font-size: 1.5rem;
+		font-family: 'Segoe UI Italic';
 	}
 	.contact3{
-		font-family: 'Segoe UI Bold Italic';
-		font-size: 1.5rem;
+		font-family: 'Segoe UI Italic';
 	}
+
+.mentions_legales{
+	margin-top: 16rem;
+}
