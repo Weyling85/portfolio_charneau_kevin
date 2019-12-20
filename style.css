@@ -68,7 +68,7 @@ body{
 	.titre_principal{
 		color: #8C8E92;
 		text-align: right;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 	}
 	.nom{
 	font-family: 'Caladea Regular';
@@ -77,8 +77,11 @@ body{
 	.prenom{
 	font-family: 'Caladea Regular';
 	text-decoration: underline;
-	}
 
+	}
+.recherche_p{
+	margin-right: 1.5rem;
+}
 
 .statut{
 	font-family: "Algerian";
@@ -87,6 +90,7 @@ body{
 
 
 .mentions_legales{
+	font-family: 'Segoe UI Italic';
 	text-align: right;
 	color: white;
 
@@ -95,21 +99,35 @@ body{
 .icones{
 	display: flex;
 	flex-direction: row;
-	align-items: baseline;
+	align-items: center;
 	justify-content: flex-end;
 }
+	.pinterest{
+		margin-bottom: 7rem;
+		margin-right: 2rem;
+}
 	.linkedin{
-		background-color: white;
+		margin-right: 2rem;
+}
+	.instagram{
+		margin-bottom: 7rem;
+		margin-right: 1rem;
+}
+	.twitter{
+		margin-right: 1rem;
 	}
 
-
-.nav{
+.milieu{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	align-items: baseline;
-	margin-left: 3rem;
+	align-items: center;
+	height: 90%;
+}
+
+	.nav{
+		margin-left: 3rem;
 }
 	.menu-vertical{
 	font-family: 'Segoe UI Italic';
@@ -117,8 +135,8 @@ body{
 	margin-left: 6rem;
 }
 	.niv0{
-		margin-bottom: 3rem;
-	}
+		margin-bottom: 2.5rem;
+}
 
 .nav a{
 	color: white;
@@ -126,10 +144,10 @@ body{
 }
 .barre_verticale {
    position: absolute;
-   height : 30%;
+   height : 20%;
    bottom: 0;
-   top: 16rem;
+   top: 17rem;
    left: 5rem;;
    width: 20px; /* A changer pour la largeur de ta barre */
-
 }
+
