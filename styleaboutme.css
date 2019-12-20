@@ -50,8 +50,8 @@
 }
 
 body{
-	background: center no-repeat url('icones/fondcode.png');
-	background-position:-50% 50%;
+	background:url('icones/photo_presentation_(1).png') no-repeat right,
+	left no-repeat url('icones/fondcode.png');
 }
 
 
@@ -137,3 +137,33 @@ body{
    left: 5rem;;
    width: 20px; /* A changer pour la largeur de ta barre */
 }
+
+.page2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	color: white;
+}
+	.about_me{
+		color: #8C8E92;
+		position: absolute;
+		top: 10rem;
+		font-family: 'Segoe UI Italic';
+		margin-left: 23rem;
+		border : red 1px solid;
+		border-radius: 50px;
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.description{
+		color: #8C8E92;
+		font-family: 'Segoe UI Bold Italic';
+		font-size: 1.2rem;
+		width: 25%;
+		margin-left: 18rem;
+		border : red 1px solid;
+		border-radius: 50px;
+		text-align: center;
+		padding: 50px 50px 50px 50px;
+	}
