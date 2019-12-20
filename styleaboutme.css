@@ -168,3 +168,8 @@ body{
 		text-align: center;
 		padding: 50px 50px 50px 50px;
 	}
+
+a{
+	color: white;
+	text-decoration:none;
+}

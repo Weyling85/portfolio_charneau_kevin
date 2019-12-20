@@ -151,3 +151,7 @@ body{
    width: 20px; /* A changer pour la largeur de ta barre */
 }
 
+a{
+	color: white;
+	text-decoration:none;
+}
