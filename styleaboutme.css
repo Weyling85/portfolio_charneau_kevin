@@ -81,10 +81,6 @@ body{
 	text-decoration: underline;
 
 	}
-.recherche_p{
-	margin-right: 1.5rem;
-}
-
 .statut{
 	font-family: "Algerian";
 	text-decoration: underline;
@@ -128,7 +124,7 @@ body{
 
 .nav a{
 	color: white;
-	text-decoration:none;
+	text-decoration:underline;
 }
 .barre_verticale {
    position: absolute;
@@ -142,34 +138,23 @@ body{
 .page2{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-content: center;
+	justify-content: flex-start;
+	align-content: flex-start;
 	color: white;
 }
 	.about_me{
 		color: #8C8E92;
 		position: absolute;
 		top: 10rem;
+		margin-left: 26%;
 		font-family: 'Segoe UI Italic';
-		margin-left: 23rem;
-		border : red 1px solid;
-		border-radius: 50px;
-		padding-right: 40px;
-		padding-left: 40px;
+		text-align: center;
 	}
 	.description{
 		color: #8C8E92;
 		font-family: 'Segoe UI Bold Italic';
 		font-size: 1.2rem;
-		width: 25%;
-		margin-left: 18rem;
-		border : red 1px solid;
-		border-radius: 50px;
+		margin-left: 23%;
+		width: 30%;
 		text-align: center;
-		padding: 50px 50px 50px 50px;
 	}
-
-a{
-	color: white;
-	text-decoration:none;
-}

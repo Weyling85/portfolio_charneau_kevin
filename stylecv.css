@@ -52,6 +52,7 @@
 body{
 	background: left no-repeat url('icones/fondcode.png');
 	background-size: cover;
+	background-position: fixed;
 }
 
 

@@ -49,109 +49,136 @@
 	src: url('font/Algerian Regular.ttf');
 }
 
+
+.presentation {
+	font-family: "Caladea Regular";
+	color: #C7C7CE;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	text-align: right;
+	text-decoration: underline;
+	margin-left: 5rem;
+}
+	.recherche_p{
+		margin-right: 5rem;
+	}
+
+
+.milieu{
+	font-family: Caladea Italic;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	text-align: right;
+	font-size: 1.1em;
+}
+	.nav{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		margin-left: 6%;
+	}
+	.nav a{
+		color: white;
+	}
+	.menu-vertical{
+		margin-left: 1rem;
+	}
+	.menu-vertical h1{
+		padding-top: 1.5rem;
+	}
+	.icones{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	}
+		.pinterest{
+			margin-bottom: 7rem;
+			margin-right: 2rem;
+		}
+		.linkedin{
+			margin-right: 2rem;
+		}
+		.instagram{
+			margin-bottom: 7rem;
+			margin-right: 1rem;
+		}
+		.twitter{
+			margin-right: 1rem;
+		}
+
 body{
 	background: center no-repeat url('icones/semi-opened-laptop-computer-turned-on-on-table-2047905.jpg'), black;
 	background-position:50% 50%;
 }
 
+footer{
+	text-align: right;
+	margin-top: 1rem;
+}
+	footer a{
+		color:white;
+	}
 
 
-.presentation{
 
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+{
+	.presentation {
+	font-family: "Caladea Regular";
+	color: #C7C7CE;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-decoration: underline;
+	margin-left: 5rem;
+	}
+
+	.milieu{
+	font-family: Caladea Italic;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	}
+
+	body{
+	background: center no-repeat url('icones/fond1.jpg');
+	background-size: cover;
+	}
+	
+	.icones{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
 	align-items: baseline;
-	margin-left: 6rem;
-}
-	.titre_principal{
-		color: #8C8E92;
-		text-align: right;
-		margin-bottom: 3rem;
+	margin-top: 1rem;
 	}
-	.nom{
-	font-family: 'Caladea Regular';
-	text-decoration: underline;
-}
-	.prenom{
-	font-family: 'Caladea Regular';
-	text-decoration: underline;
+		.pinterest{
+			margin-left: 0.5rem;
+			margin-bottom: 1rem;
+			margin-right: -0.5rem;
+		}
+		.linkedin{
+			margin-right: -1rem;
+		}
+		.instagram{
+			margin-bottom: 0rem;
+			margin-right: -1rem;
+		}
+		.twitter{
+			margin-right: 0.2rem;
+		}
 
-	}
-.recherche_p{
-	margin-right: 1.5rem;
-}
-
-.statut{
-	font-family: "Algerian";
-	text-decoration: underline;
-}
-
-
-.mentions_legales{
-	font-family: 'Segoe UI Italic';
-	text-align: right;
-	color: white;
-
-}
-
-.icones{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-end;
-}
-	.pinterest{
-		margin-bottom: 7rem;
-		margin-right: 2rem;
-}
-	.linkedin{
-		margin-right: 2rem;
-}
-	.instagram{
-		margin-bottom: 7rem;
-		margin-right: 1rem;
-}
-	.twitter{
-		margin-right: 1rem;
-	}
-
-.milieu{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 2rem;
-}
-
-	.nav{
-		margin-left: 3rem;
-}
-	.menu-vertical{
-	font-family: 'Segoe UI Italic';
-	text-align: right;
-	margin-left: 6rem;
-}
-	.niv0{
-		margin-bottom: 2.5rem;
-}
-
-.nav a{
-	color: white;
-	text-decoration:none;
-}
-.barre_verticale {
-   position: absolute;
-   height : 20%;
-   bottom: 0;
-   top: 17rem;
-   left: 6rem;;
-   width: 20px; /* A changer pour la largeur de ta barre */
-}
-
-a{
-	color: white;
-	text-decoration:none;
 }
