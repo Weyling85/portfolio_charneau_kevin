@@ -17,15 +17,15 @@
   		</div>
 
   		<div class="linkedin">
-  			<a href="https://www.linkedin.com/in/k%C3%A9vin-charneau-4972b5183/" target="_blank" title="linkedin.com"><img src="icones/linkedin1.png" alt="Linkedin" width="85em" /></a>
+  			<a href="https://www.linkedin.com/in/k%C3%A9vin-charneau-4972b5183/" target="_blank" title="linkedin.com"><img src="icones/linkedin1.png" alt="Linkedin" width="65em" /></a>
   		</div>
 
   		<div class="instagram">
-  			<a href="https://www.instagram.com" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="85em" /></a>
+  			<a href="https://www.instagram.com" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="65em" /></a>
   		</div>
 
   		<div class="twitter">
-  			<a href="https://www.twitter.com" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="85em" /></a>
+  			<a href="https://www.twitter.com" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="65em" /></a>
   		</div>
   	</div>
 

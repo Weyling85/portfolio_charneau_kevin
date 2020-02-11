@@ -111,7 +111,7 @@ footer{
 .showcase{
     background-color: var(--primary-color);
     color:#fff;
-    height: auto;
+    height: 100%;
     position: relative;
 }
 
@@ -147,10 +147,12 @@ footer{
 
 @media screen and (max-width: 800px)
 {
+    .container{
+        width: 800px;
+    }
+    
     header{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .presentation{

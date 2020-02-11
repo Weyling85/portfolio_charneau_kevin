@@ -121,6 +121,15 @@ body{
     margin: 0 auto;
     opacity: 70%;
 }
+.linkedin{
+    margin-left: 0.4rem;
+}
+.instagram{
+    margin-left: 0.5rem;
+}
+.twitter{
+    margin-left: 0.5rem;
+}
 
 .mentions_legales{
     position: absolute; 

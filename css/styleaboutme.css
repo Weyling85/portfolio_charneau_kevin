@@ -101,18 +101,14 @@ footer{
     align-items: flex-end;
 }
 
-.container {
-    max-width: 1300px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0.3rem;
-}
-
 .showcase{
+    width: 100vw;
     background-color: var(--primary-color);
     color:#fff;
     height: auto;
     position: relative;
+    margin: auto;
+    overflow: hidden;
 }
 
 .showcase:before{
@@ -139,10 +135,26 @@ footer{
     margin: 0 auto;
     opacity: 70%;
 }
+.linkedin{
+    margin-left: 0.4rem;
+}
+.instagram{
+    margin-left: 0.5rem;
+}
+.twitter{
+    margin-left: 0.5rem;
+}
 
 .mentions_legales{
     width: 9vw;
-    margin-bottom: 0.8rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mentions_legales_bis{
+    width: 10vw;
+    margin-right: 1rem;
+    margin-bottom: 1rem;   
 }
 
 .mentions_legales a{
@@ -152,9 +164,7 @@ footer{
 @media screen and (max-width: 800px)
 {
     header{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .presentation{
