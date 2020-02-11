@@ -59,7 +59,7 @@
           <ul>
             <li><a href="home.php">Home</a></li>
             <li><a href="aboutme.php">About Me</a></li>
-            <li><a href="cv.php">CV</a></li>
+            <li><a href="icones/cv.pdf" target="_blank">CV</a></li>
             <li><a href="#">Formation</a></li>
             <li><a href="#">Contact</a></li>
           </ul>

@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>kcharneau.com</title>
-	<link rel="stylesheet" href="css/styleaboutme.css">
+	<link rel="stylesheet" href="css/styleformation.css">
 	<link rel="stylesheet" href="css/menu.css">
 </head>
 
@@ -26,7 +26,6 @@
     </header>
 
     <footer>
-      <div class="mentions_legales"></div>
       <div class="icones">
   		  <div class="pinterest">
   		 	  <a href="https://www.pinterest.com" target="_blank" title="pinterest.com"><img src="icones/pinterest.png" alt="Pinterest" width="65em" /></a>
@@ -40,7 +39,7 @@
   		 	  <a href="https://www.instagram.com" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="85em" /></a>
   		  </div>
 
-  		  <div class="twitter">
+  		  <div class="d-flex">
   		 	  <a href="https://www.twitter.com" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="85em" /></a>
   		  </div>
   	  </div>

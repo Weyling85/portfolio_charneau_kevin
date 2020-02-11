@@ -140,9 +140,13 @@ footer{
     opacity: 70%;
 }
 
+.mentions_legales{
+    width: 9vw;
+    margin-bottom: 0.8rem;
+}
+
 .mentions_legales a{
     color: #BBD2E7;
-    margin-right: 1rem;
 }
 
 @media screen and (max-width: 800px)
