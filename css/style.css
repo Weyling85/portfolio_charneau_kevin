@@ -24,29 +24,13 @@
 }
 
 @font-face {
-    font-family: 'Caladea Bold';
-    src: url('../font/Caladea-Bold.ttf');
-}
-
-@font-face {
     font-family: 'Caladea Bold Italic';
     src: url('../font/Caladea-BoldItalic.ttf');
 }
 
 @font-face {
-    font-family: 'Caladea Italic';
-    src: url('../font/Caladea-Italic.ttf');
-}
-
-
-@font-face {
-    font-family: 'Caladea Regular';
-    src: url('../font/Caladea-Regular.ttf');
-}
-
-@font-face {
-	font-family: "Algerian";
-	src: url('../font/Algerian Regular.ttf');
+	font-family: "Montserrat";
+	src: url('../font/MontserratSubrayada-Regular.ttf');
 }
 
 :root {
@@ -61,50 +45,30 @@
     padding: 0;
 }
 
-body{
-    font-family: 'Caladea Bold Italic', sans-serif;
-    line-height: 1.4;
+.showcase h1{
+    font-size: 3rem;
 }
 
-.container {
-    max-width: 1300px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0.3rem;
+.showcase h5 {
+    font-size: 1rem;
 }
 
-.showcase{
-    background-color: var(--primary-color);
-    color:#fff;
-    height: 100vh;
-    position: relative;
-}
-
-.showcase:before{
-    content:'';
-    background: url('../icones/semi-opened-laptop-computer-turned-on-on-table-2047905.jpg') no-repeat center center/cover;
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.showcase .showcase-inner{
+header{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: right;
-    height: 100%;
+    justify-content: flex-end;
+    align-content: center;
 }
 
 .titre_principal {
-    font-family: 'Caladea Bold Italic', sans-serif;
+    text-align: right;
+    margin-right: 14%;
+    font-family: 'Montserrat', sans-serif;
     color: #BBD2E7;
-    margin-top: 4rem;
-    margin-left: -15rem;
+}
+
+.showcase{
+    height: 90vh;
 }
 
 .statut {
@@ -115,11 +79,58 @@ body{
     margin-top: 1rem;
 }
 
+.bouton_read_more{
+    margin-top: 2rem;
+    font-family: 'Segoe UI Regular', sans-serif;   
+}
+
+label{
+    width: 20vw;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: rgba(13, 110, 139, 0.50);
+    color: white;
+}
+
+.bouton_read_more input[type=checkbox]:checked+.readmore {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.bouton_read_more input[type=checkbox]{
+    display: none;
+}
+
+.readmore {
+    text-align: center;
+    width: 75vw;
+    display: none;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    background-color: rgba(13, 110, 139, 0.50);
+    margin-top: 0.3rem;
+}
+
+body{
+    background: url('../icones/fond1.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    font-family: 'Caladea Bold Italic', sans-serif;
+    line-height: 1.4;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .icones{
     display: flex;
     margin: 0 auto;
-    opacity: 70%;
+    opacity: 50%;
 }
 .linkedin{
     margin-left: 0.4rem;
@@ -132,76 +143,86 @@ body{
 }
 
 .mentions_legales{
-    position: absolute; 
-    top: 100; 
-    bottom: 1rem; 
-    left: 0; 
-    right: 1rem;
+    width: auto;
+    color: white;
+    font-size: 1rem;
+    margin-right: 1rem;
 }
 
 .mentions_legales a{
     color: #BBD2E7;
 }
 
-.showcase h1{
-    font-size: 3rem;
+.mentions_legales_bis{
+    width: 16vw;
 }
 
-.showcase h5 {
-    font-size: 1.5rem;
-}
-
-@media only screen and (max-device-width : 800px)
+@media screen and (max-width: 1030px)
 {
-    .icones{
-        position: absolute;
-        top: 95; 
-        bottom: 5rem; 
-        right: 1rem;
-        opacity: 70%;  
+    .showcase{
+        height: 100%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        margin-top: 1.5rem;        
+    }
+
+    .titre_principal{
+        margin-right: 0%;
+        font-family: 'Montserrat', sans-serif;
+        color: #BBD2E7;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bouton_read_more{
+        margin-bottom: 2rem;
+    }
 }
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px)
 {
-    .showcase .showcase-inner{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-    }
-
-    .titre_principal
-    {
-        font-family: 'Caladea Bold Italic', sans-serif;
-        color: #BBD2E7;
-        margin-top: 1rem;
-        text-align: center;
-        margin-left: 0;
-    }
 
     .showcase h1{
-    font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .showcase h5 {
-    font-size: 1.5rem;
+        font-size: 1rem;
     }
-
-    .icones{
-    position: absolute;
-    top: 95; 
-    bottom: 5rem; 
-    left: 0.3rem; 
-    right: 1rem;
-    opacity: 70%;  
-}
 
     .mentions_legales a{
         color: #BBD2E7;
-        font-size: 1rem;
+    }
+
+    .mentions_legales{
+        margin-right: 0rem;
+    }
+
+    .mentions_legales_bis{
+        width: auto;
+    }
+
+    .readmore {
+        text-align: center;
+        width: 75vw;
+        display: none;
+        color: white;
+        border: 1px solid yellow;
+        border-radius: 2px;
+        background-color: rgba(13, 110, 139, 0.50);
+        margin-top: 0.3rem;
     }
 }
 
@@ -210,46 +231,29 @@ and (max-device-width : 568px)
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)
 {
-    .showcase .showcase-inner{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-    }
-
-    .titre_principal
-    {
-        font-family: 'Caladea Bold Italic', sans-serif;
-        color: #BBD2E7;
-        margin-top: 1rem;
-        text-align: center;
-        margin-left: 0;
+    .showcase{
+        height: 86vh;
     }
 
     .showcase h1{
-    font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     .showcase h5 {
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     .statut {
         margin-top: 3rem;    
 }
-    .icones{
-        position: absolute;
-        top: 100; 
-        bottom: 9rem; 
-        left: 14rem; 
-        right: 1rem;
-        opacity: 70%;
+
+    .mentions_legales{
+        margin-top: 1rem;
+        margin-right: 0rem;
     }
 
     .mentions_legales a{
         color: #BBD2E7;
-        font-size: 2rem;
     }
 }
 
