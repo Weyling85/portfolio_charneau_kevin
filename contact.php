@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>kcharneau.com</title>
-  <link rel="stylesheet" href="css/styleprojets.css">
+  <link rel="stylesheet" href="css/stylecontact.css">
   <link rel="stylesheet" href="css/menu.css">
 </head>
 
@@ -36,16 +36,21 @@
   </header>
 
   <main>
-    <div class="presentation">
-      <h1>PROJETS</h1>
+    <div class="contact">
+      <h1>CONTACT</h1>
 
-      <div class="experiences">
-        <div class="exp_1"><div class="image_bac"><a href="icones/bac.jpg" target="_blank"><img src="icones/bac.jpg" width="150px"></a></div><div class="description">Diplôme du Baccalauréat Scientifique</div></div>
+      <div class="description_contact">
+        <div class="Message">
+          <a href="message.php"><img src="icones/fleche.png" width="50px">Message</a>
+        </div>
 
-        <div class="exp_2"><div class="image_licence"><a href="icones/licence.jpg" target="_blank"><img src="icones/licence.jpg" width="150px"></a></div><div class="description"> Licence de Psychologie</div></div>
+        <div class="Recommandation">
+          <a href="recommandation.php"><img src="icones/fleche.png" width="50px">Recommandation</a>
+        </div>
 
-        <div class="exp_3"><div class="image_bachelor"><a href="icones/bachelor.jpg" target="_blank"><img src="icones/bachelor.jpg" width="100px"></a></div><div class="description">Bachelor 1 Informatique</div></div>
-      </div>
+        <div class="Coordonnées">
+          <a href="coordonnees.php"><img src="icones/fleche.png" width="50px">Coordonnées</a>
+        </div>
     </div>
   </main>
 
