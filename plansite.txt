@@ -1,0 +1,25 @@
+Page accueil :
+	- Style : OK
+	- Responsive : OK
+
+Page About Me :
+	- Style : OK
+	- Responsive : OK
+
+Page CV :
+	- Format PDF : OK 
+	- Format HTML : A voir ?
+
+Page Projets :
+	- Style : Non fait
+	- Responsive : Non fait 
+
+Page Formation (BAC, Licence de psychologie, Bachelor 1 Informatique) :
+	- Style : OK
+	- Responsive : OK
+
+Page Contact :
+	- Style : Non fait
+	- Responsive : Non fait
+	- Formulaire : Non fait 
+	- Relier à BDD : Non fait

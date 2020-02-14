@@ -22,7 +22,7 @@
                     <li><a href="home.php">Home</a></li>
                     <li><a href="aboutme.php">About Me</a></li>
                     <li><a href="icones/cv.pdf" target="_blank">CV</a></li>
-                    <li><a href="#">Projets</a></li>
+                    <li><a href="projets.php">Projets</a></li>
                     <li><a href="formation.php">Formation</a></li>
                     <li><a href="#">Contact</a></li>
                   </ul>
@@ -49,7 +49,7 @@
         </div>
         
         <div class="photo_presentation">
-          <img src="icones/photo_presentation.png" width="280px">
+          <img src="icones/photo_presentation.png" width="270px">
         </div>
       </div>
     </div>

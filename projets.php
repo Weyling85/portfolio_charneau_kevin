@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>kcharneau.com</title>
-  <link rel="stylesheet" href="css/styleformation.css">
+  <link rel="stylesheet" href="css/styleprojets.css">
   <link rel="stylesheet" href="css/menu.css">
 </head>
 
@@ -37,7 +37,7 @@
 
   <main>
     <div class="presentation">
-      <h1>FORMATIONS</h1>
+      <h1>PROJETS</h1>
 
       <div class="experiences">
         <div class="exp_1"><div class="image_bac"><a href="icones/bac.jpg" target="_blank"><img src="icones/bac.jpg" width="150px"></a></div><div class="description">Diplôme du Baccalauréat Scientifique</div></div>

@@ -48,11 +48,11 @@
 
 main h1{
     text-align: center;
-    margin-bottom: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .presentation{
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -85,6 +85,7 @@ footer{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 2.6rem;
 }
 
 .icones{
@@ -117,29 +118,30 @@ footer{
     color: #BBD2E7;
 }
 
-/**@media screen and (max-width: 1030px)
+@media screen and (max-width: 1030px)
 {
     main{
-        flex-direction: column;
-        align-items: center;
         margin-top: 5rem;
-    }
-
-    .presentation{
-        width: 80%;
     }
 
     footer{
         flex-direction: column;
-        justify-content: center;
+
     }
 
-    .photo_presentation{
-        margin-left: 0rem;
+    .texte{
+        margin-top: 3rem;
+        width: 70%;
+        margin-right: 0rem;
+        margin-bottom: 3rem;
+    }
+
+    .presentation_et_photo{
+        flex-direction: column-reverse;
+        align-content: center;
     }
 
     .photo_presentation img{
-        width: 40%;
         height: auto;
         margin: auto;
     }
@@ -147,4 +149,4 @@ footer{
     .mentions_legales{
         margin-right: 0rem;
     }
-}**/
+}
