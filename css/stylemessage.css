@@ -40,38 +40,116 @@
 }
 
 *{
-    color: white;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
 main h1{
+    color: white;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
-.presentation{
+form{
+    color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.presentation_et_photo{
+.nom_prenom{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.email_enterprise{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+textarea{
+    width: 435px;
+    height: 80px;
+}
+
+.contact {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.contact input{
+    width: 15vw;
+    height: 5vh;
+}
+
+.last_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.first_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.enterprise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.Message a{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 2rem;
 }
 
-.texte{
-    width: 40%;
-    margin-right: 15rem;
+.Recommandation a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
-.photo_presentation img{
-    border-radius: 20px;
+.Coordonnées a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.description_contact img{
+    margin-right: 1rem;
 }
 
 body{
@@ -82,16 +160,16 @@ body{
 }
 
 footer{
+    color: white;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-content: flex-end;
-    align-items: center;
+    height: 4vh;
 }
 
 .icones{
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     opacity: 70%;
 }
 .linkedin{
@@ -121,33 +199,40 @@ footer{
 
 @media screen and (max-width: 1030px)
 {
-    main{
-        margin-top: 5rem;
+    .nom_prenom{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .last_name{
+        margin-right: 0rem;
+        margin-bottom: 1rem
+    }
+
+    .email_enterprise{
+        flex-direction: column;
+    }
+
+    .email{
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact input{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+        height: 60px;
     }
 
     footer{
-        flex-direction: column;
-
-    }
-
-    .texte{
-        margin-top: 3rem;
-        width: 70%;
-        margin-right: 0rem;
-        margin-bottom: 3rem;
-    }
-
-    .presentation_et_photo{
-        flex-direction: column-reverse;
-        align-content: center;
-    }
-
-    .photo_presentation img{
-        height: auto;
-        margin: auto;
+        justify-content: center;
+        height: 5vh;
     }
 
     .mentions_legales{
-        margin-right: 0rem;
+        margin-right: 0rem; 
     }
 }

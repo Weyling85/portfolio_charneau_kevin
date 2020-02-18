@@ -68,7 +68,7 @@ header{
 }
 
 .showcase{
-    height: 90vh;
+    height: 84vh;
 }
 
 .statut {
@@ -79,9 +79,17 @@ header{
     margin-top: 1rem;
 }
 
+.readmore{
+    line-height: 40px;
+}
+
 .bouton_read_more{
     margin-top: 2rem;
     font-family: 'Segoe UI Regular', sans-serif;   
+}
+
+main{
+    height: 10vh;
 }
 
 label{
@@ -89,7 +97,7 @@ label{
     border: 1px solid yellow;
     border-radius: 2px;
     padding: 5px;
-    background-color: rgba(13, 110, 139, 0.50);
+    background-color: rgba(13, 110, 139, 0.80);
     color: white;
 }
 
@@ -109,7 +117,7 @@ label{
     color: white;
     border: 1px solid yellow;
     border-radius: 2px;
-    background-color: rgba(13, 110, 139, 0.50);
+    background-color: rgba(13, 110, 139, 0.80);
     margin-top: 0.3rem;
 }
 
@@ -125,11 +133,12 @@ footer{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    height: 3vh;
 }
 
 .icones{
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
     opacity: 50%;
 }
 .linkedin{
@@ -232,7 +241,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 {
     .showcase{
-        height: 86vh;
+        height: 80vh;
     }
 
     .showcase h1{
@@ -255,6 +264,9 @@ and (max-device-width : 1024px)
     .mentions_legales a{
         color: #BBD2E7;
     }
-}
 
+    footer{
+        height: 5vh;
+    }
+}
 

@@ -58,7 +58,7 @@
     <div class="mentions_legales_bis"></div>
     <div class="icones">
       <div class="pinterest">
-        <a href="https://www.pinterest.com" target="_blank" title="pinterest.com"><img src="icones/pinterest.png" alt="Pinterest" width="65em" /></a>
+        <a href="https://www.pinterest.fr/kevincharneau85/" target="_blank" title="pinterest.com"><img src="icones/pinterest.png" alt="Pinterest" width="65em" /></a>
       </div>
 
       <div class="linkedin">
@@ -66,11 +66,11 @@
       </div>
 
       <div class="instagram">
-        <a href="https://www.instagram.com" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="65em" /></a>
+        <a href="https://www.instagram.com/le_vieux_k/" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="65em" /></a>
       </div>
 
       <div class="twitter">
-        <a href="https://www.twitter.com" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="65em" /></a>
+        <a href="https://twitter.com/Moic_estdieu" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="65em" /></a>
       </div>
     </div>
 

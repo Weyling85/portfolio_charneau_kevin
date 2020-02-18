@@ -55,73 +55,57 @@ main{
 
 main h1{
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
-.experiences{
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projets{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-
-}
-
-.image_bac{
-    border-radius: 6px;
-    margin-top: 1rem; 
-    margin-left: 20%; 
-}
-
-.image_bac img{
-    border-radius: 6px;
-}
-
-.image_licence{
-    margin-left: 20%;
-    border-radius: 6px;
-    margin-top: 1rem;
-}
-
-.image_licence img{
-    border-radius: 6px;
-}
-
-.image_bachelor{
-    margin-left: 23%;
-    border-radius: 6px;
-    margin-top: 1rem;
+    height: 67vh;
+    margin-bottom: 2rem;
 }
 
 .description{
     margin: auto;
 }
 
-.exp_1{
+.projet_1{
+    padding: 1rem;
     width: 80%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     background-color: rgba(13, 110, 139, 0.50);
     border: 2px solid black;
     border-radius: 6px;
-    line-height: 40px;
     margin-bottom: 1rem;
 }
 
-.exp_2{
+.projet_2{
+    padding: 1rem;
     width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: rgba(13, 110, 139, 0.50);
     border: 2px solid black;
     border-radius: 6px;
-    line-height: 40px;
     margin-bottom: 1rem;
 }
 
-.exp_3{
+.projet_3{
+    padding: 1rem;
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -129,17 +113,6 @@ main h1{
     background-color: rgba(13, 110, 139, 0.50);
     border: 2px solid black;
     border-radius: 6px;
-    line-height: 40px;
-}
-
-.photo_presentation{
-    margin-top: 5rem;
-    margin-left: 10rem;
-    margin-bottom: 4.3rem;
-}
-
-.photo_presentation img{
-    border-radius: 20px;
 }
 
 body{
@@ -150,7 +123,6 @@ body{
 }
 
 footer{
-    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -159,7 +131,7 @@ footer{
 
 .icones{
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     opacity: 70%;
 }
 .linkedin{
@@ -189,23 +161,23 @@ footer{
 
 @media screen and (max-width: 1030px)
 {
-    .exp_1{
+    .projets{
+        height: 90vh;
+    }
+
+    .projet_1{
         flex-direction: column;
         justify-content: center;
     }
 
-    .exp_2{
+    .projet_2{
         flex-direction: column;
         justify-content: center;
     }
 
-    .exp_3{
+    .projet_3{
         flex-direction: column;
         justify-content: center;
-    }
-
-    .image_bac, .image_licence, .image_bachelor{
-        margin-left: 0%;
     }
 
     footer{
@@ -214,5 +186,14 @@ footer{
 
     .mentions_legales{
         margin-right: 0rem;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+{
+    .projets{
+        height: 100vh;
     }
 }

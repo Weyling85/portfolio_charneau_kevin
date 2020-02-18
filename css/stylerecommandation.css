@@ -40,7 +40,6 @@
 }
 
 *{
-    color: white;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -49,100 +48,127 @@
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 main h1{
+    color: white;
     text-align: center;
-    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
-.experiences{
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.recommandation_affichage{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-
+    align-items: center;
 }
 
-.image_bac{
-    border-radius: 6px;
-    margin-top: 1rem; 
-    margin-left: 20%; 
+.nom_prenom{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
 }
 
-.image_bac img{
-    border-radius: 6px;
+.email_enterprise{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
 }
 
-.image_licence{
-    margin-left: 20%;
-    border-radius: 6px;
+textarea{
+    width: 435px;
+    height: 80px;
+}
+
+.recommandation {
+    width: 40%;
     margin-top: 1rem;
+    justify-content: flex-end;
+    border: 2px solid yellow;
+    border-radius: 16px;
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
-.image_licence img{
-    border-radius: 6px;
+.recommandation input{
+    width: 15vw;
+    height: 5vh;
 }
 
-.image_bachelor{
-    margin-left: 23%;
-    margin-top: 1rem;
+.last_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
 }
 
-.image_bachelor img{
-    border-radius: 6px;
+.first_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.description{
-    margin: auto;
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
 }
 
-.exp_1{
-    width: 80%;
+.enterprise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.message a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(13, 110, 139, 0.50);
-    border: 2px solid black;
-    border-radius: 6px;
-    line-height: 40px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.exp_2{
-    width: 80%;
+.recommandation a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(13, 110, 139, 0.50);
-    border: 2px solid black;
-    border-radius: 6px;
-    line-height: 40px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.exp_3{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgba(13, 110, 139, 0.50);
-    border: 2px solid black;
-    border-radius: 6px;
-    line-height: 40px;
+.carouseul{
+    color: white;
+    width: 45%;
+    height: 15rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    justify-content: flex-end;
+    border: 2px solid yellow;
+    border-radius: 16px;
+    padding-top: 2rem;
+    margin-bottom: 0.75rem;
 }
 
-.photo_presentation{
-    margin-top: 5rem;
-    margin-left: 10rem;
-    margin-bottom: 4.3rem;
+.container {
+    width: 100% !important;
 }
 
-.photo_presentation img{
-    border-radius: 20px;
+.description_contact img{
+    margin-right: 1rem;
 }
 
 body{
@@ -153,16 +179,16 @@ body{
 }
 
 footer{
-    margin-top: 1rem;
+    color: white;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
+    align-content: flex-end;
+    height: 4vh;
 }
 
 .icones{
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     opacity: 70%;
 }
 .linkedin{
@@ -192,41 +218,40 @@ footer{
 
 @media screen and (max-width: 1030px)
 {
-    .exp_1{
+    .nom_prenom{
         flex-direction: column;
-        justify-content: center;
+        margin-bottom: 1rem;
     }
 
-    .exp_2{
-        flex-direction: column;
-        justify-content: center;
+    .last_name{
+        margin-right: 0rem;
+        margin-bottom: 1rem
     }
 
-    .exp_3{
+    .email_enterprise{
         flex-direction: column;
-        justify-content: center;
     }
 
-    .image_bac, .image_licence, .image_bachelor{
-        margin-left: 0%;
+    .email{
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact input{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+        height: 60px;
     }
 
     footer{
-        flex-direction: column;
+        justify-content: center;
+        height: 5vh;
     }
 
     .mentions_legales{
-        margin-right: 0rem;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px)
-{
-    .experiences{
-        margin-top: 5rem;
-    }
-
-    footer{
-        margin-top: 8rem;
+        margin-right: 0rem; 
     }
 }
