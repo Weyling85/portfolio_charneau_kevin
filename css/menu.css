@@ -138,3 +138,9 @@
 	text-decoration: none;
 	transition: color 0.4s ease;
 }
+
+@media (orientation: landscape) and (max-width : 900px)
+{
+	.menu-wrap .menu > div > div > ul > li {
+		font-size: 1.5rem;
+}

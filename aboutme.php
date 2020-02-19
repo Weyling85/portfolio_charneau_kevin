@@ -19,7 +19,7 @@
               <div>
                 <div>
                   <ul>
-                    <li><a href="home.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="aboutme.php">About Me</a></li>
                     <li><a href="icones/cv.pdf" target="_blank">CV</a></li>
                     <li><a href="projets.php">Projets</a></li>
@@ -41,39 +41,22 @@
 
       <div class="presentation_et_photo">
         <div class="texte">
-          <p>Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.</p>
+          <p>Etudiant chez Campus Academy à Nantes. Je suis passionné par l'informatique et j'aimerais en faire mon métier en tant qu'administrateur systèmes et réseaux. J'apprends aussi à coder en autodidacte via OpenClassroom. Bienvenue sur mon site !</p>
 
-          <p>Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.</p>
+          <p>Après avoir obtenu mon bac en série scientifique, je n'avais pas d'idée particulière dans mon projet professionnel. Je possède beaucoup de hobbies comme le sport, la psychologie, l'histoire et l'informatique mais je ne me voyais pas encore de quoi en faire mon avenir.</p>
 
-          <p>Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.</p>
+          <p>Je me suis donc dirigé vers une faculté de psychologie car je possédais certaines affinités avec ce domaine. J'ai obtenu ma licence mais c'est à ce moment que je me suis rendu compte que je ne voulais pas en faire mon métier. Ma passion pour l'informatique étant toujours présente, je me suis lancé dans une écolé d'informatique chez Campus Academy de Nantes en 2019 après plusieurs années à faire des boulots dans le commerce. </p>
         </div>
 
         <div class="photo_presentation">
           <img src="icones/photo_presentation.png" width="270px">
         </div>
       </div>
-
-      <div class="icones">
-      <div class="pinterest">
-        <a href="https://www.pinterest.fr/kevincharneau85/" target="_blank" title="pinterest.com"><img src="icones/pinterest.png" alt="Pinterest" width="65em" /></a>
-      </div>
-
-      <div class="linkedin">
-        <a href="https://www.linkedin.com/in/k%C3%A9vin-charneau-4972b5183/" target="_blank" title="linkedin.com"><img src="icones/linkedin1.png" alt="Linkedin" width="65em" /></a>
-      </div>
-
-      <div class="instagram">
-        <a href="https://www.instagram.com/le_vieux_k/" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="65em" /></a>
-      </div>
-
-      <div class="twitter">
-        <a href="https://twitter.com/Moic_estdieu" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="65em" /></a>
-      </div>
     </div>
   </main>
 
   <footer>
-    <div class="mentions_legales"> © Kévin Charneau 2020 <a href="mentions_legales.html"> Mentions légales</a>
+    <div class="mentions_legales"> © Kévin Charneau 2020 <a href="mentionslegales.php"> Mentions légales</a>
     </div>
   </footer>
 </body>

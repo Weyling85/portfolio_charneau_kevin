@@ -19,7 +19,7 @@
               <div>
                 <div>
                   <ul>
-                    <li><a href="home.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="aboutme.php">About Me</a></li>
                     <li><a href="icones/cv.pdf" target="_blank">CV</a></li>
                     <li><a href="projets.php">Projets</a></li>
@@ -47,15 +47,8 @@
         <div class="Recommandation">
           <a href="recommandation.php"><img src="icones/fleche.png" width="50px">Recommandation</a>
         </div>
-
-        <div class="Coordonnées">
-          <a href="coordonnees.php"><img src="icones/fleche.png" width="50px">Coordonnées</a>
-        </div>
     </div>
-  </main>
-
-  <footer>
-    <div class="mentions_legales_bis"></div>
+    
     <div class="icones">
       <div class="pinterest">
         <a href="https://www.pinterest.fr/kevincharneau85/" target="_blank" title="pinterest.com"><img src="icones/pinterest.png" alt="Pinterest" width="65em" /></a>
@@ -73,8 +66,10 @@
         <a href="https://twitter.com/Moic_estdieu" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="65em" /></a>
       </div>
     </div>
+  </main>
 
-    <div class="mentions_legales"> © Kévin Charneau 2020 <a href="mentions_legales.html"> Mentions légales</a>
+  <footer>
+    <div class="mentions_legales"> © Kévin Charneau 2020 <a href="mentionslegales.php"> Mentions légales</a>
     </div>
   </footer>
 </body>

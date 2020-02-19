@@ -56,7 +56,7 @@ main{
 main h1{
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .presentation{
@@ -67,20 +67,19 @@ main h1{
 
 .projets{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    height: 67vh;
-    margin-bottom: 2rem;
+    margin-bottom: 5.7rem;
 }
 
 .description{
+    text-align: center;
+    width: 50%;
     margin: auto;
 }
 
 .projet_1{
     padding: 1rem;
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -91,9 +90,23 @@ main h1{
     margin-bottom: 1rem;
 }
 
+.image_projet_1 img{
+    border-radius: 6px;
+}
+
+.image_projet_2 img{
+    border-radius: 6px;
+}
+
+.image_projet_3 img{
+    border-radius: 6px;
+}
+
+
+
+
 .projet_2{
     padding: 1rem;
-    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -106,7 +119,6 @@ main h1{
 
 .projet_3{
     padding: 1rem;
-    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,21 +173,27 @@ footer{
 
 @media screen and (max-width: 1030px)
 {
-    .projets{
-        height: 90vh;
-    }
 
     .projet_1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
         flex-direction: column;
         justify-content: center;
     }
 
     .projet_2{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
         flex-direction: column;
         justify-content: center;
     }
 
     .projet_3{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
         flex-direction: column;
         justify-content: center;
     }
@@ -190,10 +208,19 @@ footer{
 }
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px)
+and (min-width: 768px)
+and (max-width: 1024px)
 {
     .projets{
-        height: 100vh;
+        height: 85vh;
+    }
+}
+
+@media screen 
+and (min-width: 375px)
+and (max-width: 823px)
+{
+    .projets{
+        height: 100%;
     }
 }

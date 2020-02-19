@@ -18,7 +18,7 @@
         <div>
           <div>
             <ul>
-              <li><a href="home.php">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li><a href="aboutme.php">About Me</a></li>
               <li><a href="icones/cv.pdf" target="_blank">CV</a></li>
               <li><a href="projets.php">Projets</a></li>
@@ -64,26 +64,29 @@
 
 <main>
   <div class="icones">
-    <div class="pinterest">
-      <a href="https://www.pinterest.fr/kevincharneau85/" target="_blank" title="pinterest.com"><img src="icones/pinterest.png" alt="Pinterest" width="65em" /></a>
-    </div>
+    <div class="premiers_icones">
+      <div class="pinterest">
+        <a href="https://www.pinterest.fr/kevincharneau85/" target="_blank" title="pinterest.com"><img src="icones/pinterest.png" alt="Pinterest" width="65em" /></a>
+      </div>
 
-    <div class="linkedin">
-      <a href="https://www.linkedin.com/in/k%C3%A9vin-charneau-4972b5183/" target="_blank" title="linkedin.com"><img src="icones/linkedin1.png" alt="Linkedin" width="65em" /></a>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/k%C3%A9vin-charneau-4972b5183/" target="_blank" title="linkedin.com"><img src="icones/linkedin1.png" alt="Linkedin" width="63em" /></a>
+      </div>
     </div>
+    <div class="derniers_icones">
+      <div class="instagram">
+        <a href="https://www.instagram.com/le_vieux_k/" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="63em" /></a>
+      </div>
 
-    <div class="instagram">
-      <a href="https://www.instagram.com/le_vieux_k/" target="_blank" title="instagram.com"><img src="icones/insta.png" alt="Instagram" width="65em" /></a>
-    </div>
-
-    <div class="twitter">
-      <a href="https://twitter.com/Moic_estdieu" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="65em" /></a>
+      <div class="twitter">
+        <a href="https://twitter.com/Moic_estdieu" target="_blank" title="twitter.com"><img src="icones/twitter.png" alt="Twitter" width="63em" /></a>
+      </div>
     </div>
   </div>
 </main>
 
 <footer>
-  <div class="mentions_legales"> © Kévin Charneau 2020 <a href="mentions_legales.html">Mentions légales</a>
+  <div class="mentions_legales"> © Kévin Charneau 2020 <a href="mentionslegales.php">Mentions légales</a>
   </div>
 </footer>
 </html>

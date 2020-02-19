@@ -90,7 +90,7 @@ textarea{
 
 .recommandation {
     width: 40%;
-    margin-top: 1rem;
+    margin-top: 5rem;
     justify-content: flex-end;
     border: 2px solid yellow;
     border-radius: 16px;
@@ -163,6 +163,10 @@ textarea{
     margin-bottom: 0.75rem;
 }
 
+.carouseul h4{
+    text-decoration: underline; 
+}
+
 .container {
     width: 100% !important;
 }
@@ -179,6 +183,7 @@ body{
 }
 
 footer{
+    margin-top: 1rem;
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -186,30 +191,9 @@ footer{
     height: 4vh;
 }
 
-.icones{
-    display: flex;
-    margin: auto;
-    opacity: 70%;
-}
-.linkedin{
-    margin-left: 0.4rem;
-}
-.instagram{
-    margin-left: 0.5rem;
-}
-.twitter{
-    margin-left: 0.5rem;
-}
-
 .mentions_legales{
     width: auto;
     margin-right: 1rem;
-}
-
-.mentions_legales_bis{
-    width: 15vw;
-    margin-right: 1rem;
-    margin-bottom: 1rem;   
 }
 
 .mentions_legales a{
@@ -218,6 +202,20 @@ footer{
 
 @media screen and (max-width: 1030px)
 {
+    .recommandation_affichage{
+        flex-direction: column;
+    }
+
+    .recommandation{
+        width: 90%;
+    }
+
+    .carouseul{
+        margin-left: 0rem;
+        width: 90%;
+        height: 20%;
+    }
+
     .nom_prenom{
         flex-direction: column;
         margin-bottom: 1rem;

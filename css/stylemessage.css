@@ -57,7 +57,7 @@ main h1{
     color: white;
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 form{
@@ -160,6 +160,7 @@ body{
 }
 
 footer{
+    margin-top: 1rem;
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -167,30 +168,9 @@ footer{
     height: 4vh;
 }
 
-.icones{
-    display: flex;
-    margin: auto;
-    opacity: 70%;
-}
-.linkedin{
-    margin-left: 0.4rem;
-}
-.instagram{
-    margin-left: 0.5rem;
-}
-.twitter{
-    margin-left: 0.5rem;
-}
-
 .mentions_legales{
     width: auto;
     margin-right: 1rem;
-}
-
-.mentions_legales_bis{
-    width: 15vw;
-    margin-right: 1rem;
-    margin-bottom: 1rem;   
 }
 
 .mentions_legales a{

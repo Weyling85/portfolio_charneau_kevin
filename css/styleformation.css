@@ -46,31 +46,25 @@
     padding: 0;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 main h1{
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
-.experiences{
+.formation{
+    width: 80%;
+    margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-
 }
 
 .image_bac{
     border-radius: 6px;
     margin-top: 1rem; 
-    margin-left: 20%; 
+    margin-left: 20%;
+    margin-right: 1rem;
 }
 
 .image_bac img{
@@ -81,6 +75,7 @@ main h1{
     margin-left: 20%;
     border-radius: 6px;
     margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 .image_licence img{
@@ -90,6 +85,7 @@ main h1{
 .image_bachelor{
     margin-left: 23%;
     margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 .image_bachelor img{
@@ -98,10 +94,13 @@ main h1{
 
 .description{
     margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
-.exp_1{
-    width: 80%;
+.formation_1{
+    width: 70%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -112,8 +111,9 @@ main h1{
     margin-bottom: 1rem;
 }
 
-.exp_2{
-    width: 80%;
+.formation_2{
+    width: 70%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -124,8 +124,9 @@ main h1{
     margin-bottom: 1rem;
 }
 
-.exp_3{
-    width: 80%;
+.formation_3{
+    width: 70%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -133,16 +134,6 @@ main h1{
     border: 2px solid black;
     border-radius: 6px;
     line-height: 40px;
-}
-
-.photo_presentation{
-    margin-top: 5rem;
-    margin-left: 10rem;
-    margin-bottom: 4.3rem;
-}
-
-.photo_presentation img{
-    border-radius: 20px;
 }
 
 body{
@@ -153,37 +144,16 @@ body{
 }
 
 footer{
-    margin-top: 1rem;
+    margin-top: 4.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
 
-.icones{
-    display: flex;
-    margin: 0 auto;
-    opacity: 70%;
-}
-.linkedin{
-    margin-left: 0.4rem;
-}
-.instagram{
-    margin-left: 0.5rem;
-}
-.twitter{
-    margin-left: 0.5rem;
-}
-
 .mentions_legales{
     width: auto;
     margin-right: 1rem;
-}
-
-.mentions_legales_bis{
-    width: 15vw;
-    margin-right: 1rem;
-    margin-bottom: 1rem;   
 }
 
 .mentions_legales a{
@@ -192,23 +162,24 @@ footer{
 
 @media screen and (max-width: 1030px)
 {
-    .exp_1{
+    .formation_1{
         flex-direction: column;
         justify-content: center;
     }
 
-    .exp_2{
+    .formation_2{
         flex-direction: column;
         justify-content: center;
     }
 
-    .exp_3{
+    .formation_3{
         flex-direction: column;
         justify-content: center;
     }
 
     .image_bac, .image_licence, .image_bachelor{
-        margin-left: 0%;
+        margin: auto;
+        margin-top: 1rem;
     }
 
     footer{
