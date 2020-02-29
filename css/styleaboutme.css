@@ -53,16 +53,17 @@ main h1{
 }
 
 .presentation{
+    height: 95vh;
     display: flex;
     flex-direction: column;
 }
 
 .presentation_et_photo{
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
 }
 
 .texte{
@@ -87,7 +88,6 @@ footer{
     justify-content: flex-end;
     align-content: flex-end;
     align-items: center;
-    margin-top: 4.8rem;
 }
 
 .icones{
@@ -153,4 +153,11 @@ footer{
     .mentions_legales{
         margin-right: 0rem;
     }
+}
+
+@media screen and (max-width: 1030px)
+{
+    .presentation{
+        height: 90%;
+    }   
 }

@@ -1,0 +1,16 @@
+différents types media queries :
+
+Galaxy S5:
+
+@media screen 
+and (min-width: 360px)
+and (max-width: 640px)
+{
+
+}
+
+@media screen 
+and (min-width: 360px)
+and (max-width: 640px)
+and (orientation: landscape)
+

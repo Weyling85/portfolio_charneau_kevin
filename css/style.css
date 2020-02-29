@@ -264,13 +264,36 @@ and (max-device-width : 568px)
 
     .readmore {
         text-align: center;
-        width: 75vw;
+        width: 85%;
+        margin: auto;
         display: none;
         color: white;
         border: 1px solid yellow;
         border-radius: 2px;
         background-color: rgba(13, 110, 139, 0.50);
         margin-top: 0.3rem;
+    }
+}
+
+@media screen 
+and (min-width : 375px) 
+and (max-width : 667px)
+{
+    .showcase h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 812px)
+{
+    .showcase h1{
+        font-size: 3rem;
+    }
+
+    .showcase h5{
+        font-size: 1.5rem;
     }
 }
 
@@ -329,11 +352,11 @@ and (max-width : 1024px)
     }
 
     .showcase h1{
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
 
     .showcase h5 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .statut {
@@ -352,51 +375,88 @@ and (max-width : 1024px)
     footer{
         height: 0vh;
     }
+
+    .readmore{
+        width: 70%;
+        margin: auto;
+        padding: 1rem;
+        margin-top: 0.3rem;
+    }
+}
+
+@media screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation: landscape) 
+{
+    header{
+        height: 12vh;
+        justify-content: flex-end;
+        margin: 1rem;
+    }
+
+    .titre_principal{
+        text-align: right;
+    }
+
+    .showcase{
+        height: 25vh;
+    }
+
+    .showcase h1{
+        font-size: 3rem !important;
+    }
+
+    .showcase h5 {
+        font-size: 1.5rem !important;
+    }
+
+    main{
+        height: 81vh;
+        width: 50%;
+    }
+
+    .icones {
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .premiers_icones{
+        flex-direction: column;
+    }
+
+    .derniers_icones{
+        flex-direction: column;
+    }
+
+    .readmore{
+        width: 90vw;
+        padding: 1rem;
+    }
+}
+
+@media only screen
+and (orientation: landscape)
+and (min-width: 375px)
+and (max-width: 812px)
+{
+    .statut{
+        margin-top: 1rem;
+    }
 }
 
 @media only screen 
-and(orientation: landscape) 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+and (max-device-width: 568px) 
+and (min-device-width: 320px)
+and (orientation: landscape)
 {
-    header{
-        height: 12vh;
-        justify-content: flex-end;
-        margin: 1rem;
-    }
-
-    .titre_principal{
-        text-align: right;
-    }
-
-    .showcase h1{
-        font-size: 2rem;
-    }
-
-    .showcase h5 {
-        font-size: 1rem;
-    }
-
-    main{
-        height: 73vh;
-        width: 50%;
-    }
-
-    .icones {
-        width: 50%;
-        flex-direction: column;
-    }
-
-    .premiers_icones{
-        flex-direction: column;
-    }
-
-    .derniers_icones{
-        flex-direction: column;
+    .readmore{
+        width: 80vw !important;
     }
 }
 
-@media (orientation: landscape) and (max-width : 900px)
+@media (orientation: landscape) 
+and (max-width : 900px)
 {
     header{
         height: 12vh;
@@ -409,11 +469,11 @@ and (max-device-width : 1024px)
     }
 
     .showcase h1{
-        font-size: 2rem;
+        font-size: 2rem !important; 
     }
 
     .showcase h5 {
-        font-size: 1rem;
+        font-size: 1rem !important; 
     }
 
     main{
@@ -432,5 +492,140 @@ and (max-device-width : 1024px)
 
     .derniers_icones{
         flex-direction: column;
+    }
+
+    .readmore{
+        width: 85vw;
+        padding: 1rem;
+    }
+}
+
+@media screen
+and (min-width: 411px)
+and (max-width: 731px)
+{
+    .showcase h1{
+        font-size: 3rem;
+    }
+
+    .showcase h5{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)
+{
+    .showcase h1{
+        font-size: 5rem;
+    }
+
+    .showcase h5{
+        font-size: 3rem;
+    }
+
+    .pinterest img{
+        width: 85px;
+        height: auto;
+    }
+
+    .linkedin img{
+        width: 85px;
+        height: auto;
+    }
+
+    .instagram img{
+        width: 85px;
+        height: auto;
+    }
+
+    .twitter img{
+        width: 85px;
+        height: auto;
+    }
+
+    .mentions_legales{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)
+and (orientation: landscape)
+{
+
+    header{
+        height: 30vh;
+    }
+
+    main{
+        height: 65vh;
+    }
+
+    .titre_principal{
+        margin-right: 1rem;
+    }
+
+    .icones {
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .premiers_icones{
+        flex-direction: column;
+    }
+
+    .derniers_icones{
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    .pinterest{
+        margin-left: 1rem;
+    }
+    .linkedin{
+        margin-left: 1rem;
+    }
+    .instagram{
+        margin-left: 1rem;
+    }
+    .twitter{
+        margin-left: 1rem;
+    }
+}
+
+@media only screen
+and (orientation: landscape)
+and (min-width: 360px)
+and (max-width: 740px)
+{
+    .pinterest img{
+        width: 55px;
+        height: auto;
+    }
+
+    .linkedin img{
+        width: 55px;
+        height: auto;
+    }
+
+    .instagram img{
+        width: 55px;
+        height: auto;
+    }
+
+    .twitter img{
+        width: 55px;
+        height: auto;
+    }
+
+    .statut{
+        font-size: 0.8rem;
+    }
+
+    .etudes{
+        font-size: 0.8rem;
     }
 }
