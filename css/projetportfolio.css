@@ -154,6 +154,9 @@ footer{
 
     .image_projet_1{
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     .image_projet_1 img{
@@ -162,8 +165,12 @@ footer{
         height: auto;
     }
 
+    .description{
+        width: 80%;
+    }
+
     .description_projet{
-        width: 100%;
+        width: 80%;
     }
 
     .projet_1{
