@@ -52,6 +52,10 @@ main h1{
     margin-bottom: 4rem;
 }
 
+.presentation{
+    height: 83vh;
+}
+
 .formation{
     width: 80%;
     margin: auto;
@@ -61,45 +65,40 @@ main h1{
 }
 
 .image_bac{
-    border-radius: 6px;
-    margin-top: 1rem; 
-    margin-left: 20%;
-    margin-right: 1rem;
+    margin: auto;
 }
 
 .image_bac img{
+    margin-top: 1rem;
     border-radius: 6px;
 }
 
 .image_licence{
-    margin-left: 20%;
-    border-radius: 6px;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    margin: auto;
 }
 
 .image_licence img{
+    margin-top: 1rem;
     border-radius: 6px;
 }
 
 .image_bachelor{
-    margin-left: 23%;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    margin: auto;
 }
 
 .image_bachelor img{
+    margin-top: 1rem;
     border-radius: 6px;
 }
 
 .description{
-    margin: auto;
     width: 50%;
     text-align: center;
 }
 
 .formation_1{
-    width: 70%;
+    width: 68%;
+    padding: 1rem;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -112,7 +111,8 @@ main h1{
 }
 
 .formation_2{
-    width: 70%;
+    width: 68%;
+    padding: 1rem;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -125,7 +125,8 @@ main h1{
 }
 
 .formation_3{
-    width: 70%;
+    width: 68%;
+    padding: 1rem;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -162,17 +163,28 @@ footer{
 
 @media screen and (max-width: 1030px)
 {
+    main{
+        margin-top: 5rem;
+    }
+    
+    .presentation{
+        height: 90%;
+    }
+
     .formation_1{
+        width: 80%;
         flex-direction: column;
         justify-content: center;
     }
 
     .formation_2{
+        width: 80%;
         flex-direction: column;
         justify-content: center;
     }
 
     .formation_3{
+        width: 80%;
         flex-direction: column;
         justify-content: center;
     }

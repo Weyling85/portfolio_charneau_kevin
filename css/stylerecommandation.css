@@ -206,6 +206,10 @@ footer{
         flex-direction: column;
     }
 
+    .recommandation input{
+        width: 43vw;
+    }
+
     .recommandation{
         width: 90%;
     }

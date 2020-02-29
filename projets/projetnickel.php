@@ -49,6 +49,10 @@
               <div class="description_projet">
                 <p>Dans le cadre d'un projet d'école ainsi que pour mon épanouissement professionnel, j'ai décidé de faire un stage de 2 mois chez Nickel Banque.</p>
 
+                <p>Nickel est un service bancaire alternatif français ouvert à tous, sans condition de revenus et sans possibilité de découvert ni de crédit.
+
+                C'est le premier compte utilisant une borne d'inscription chez un buraliste qui s'enregistre avec une pièce d'identité et un numéro de téléphone mobile. Ce compte est actif immédiatement et s'ouvre en 5 minutes.</p>
+
                 <p>Par le passé, j'ai déjà pu avoir la chance de faire un stage chez eux, qui m'a permis de mettre à jour un système informatique ainsi que d'installer plusieurs pôles informatiques et les relier au serveur.</p>
 
                 <p>Cette expérience va me permettre de poursuivre ma formation et d'acquérir de nouvelles compétences afin de valider mon projet professionnel.</p>

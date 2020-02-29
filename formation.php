@@ -40,9 +40,9 @@
       <h1>FORMATIONS</h1>
 
       <div class="formation">
-        <a href="formations/formationbac.php" target="_blank"><div class="formation_1"><div class="image_bac"><img src="icones/bac.jpg" width="150px"></div><div class="description">Diplôme du Baccalauréat Scientifique</div></div></a>
+        <a href="formations/formationbac.php" target="_blank"><div class="formation_1"><div class="image_bac"><img src="icones/bac.jpg" width="200px"></div><div class="description">Diplôme du Baccalauréat Scientifique</div></div></a>
 
-        <a href="formations/formationlicence.php" target="_blank"><div class="formation_2"><div class="image_licence"><img src="icones/licence.jpg" width="150px"></div><div class="description">Création d'un portfolio dans le cadre d'un projet d'école et professionnel</div></div></a>
+        <a href="formations/formationlicence.php" target="_blank"><div class="formation_2"><div class="image_licence"><img src="icones/licence.jpg" width="200px"></div><div class="description">Diplôme de Licence en Psychologie de la Faculté de Nantes</div></div></a>
 
         <a href="formations/formationbachelor.php" target="_blank"><div class="formation_3"><div class="image_bachelor"><img src="icones/bachelor.jpg" width="100px"></div><div class="description">Bachelor 1 Informatique chez Campus Academy</div></div></a>
       </div>
